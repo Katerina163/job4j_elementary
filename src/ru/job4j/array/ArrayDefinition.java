@@ -8,5 +8,11 @@ public class ArrayDefinition {
         System.out.println(ages.length);
         System.out.println(surnames.length);
         System.out.println(prices.length);
+        String[] names = new String[4];
+        names[0] = "Михаил";
+        names[1] = "Артем";
+        names[2] = "Мария";
+        names[3] = "Анна";
+        System.out.println(names[0] + " " + names[1] + " " + names[2] + " " + names[3]);
     }
 }
